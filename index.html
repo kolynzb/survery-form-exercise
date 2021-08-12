@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body>
+    <h1>My Form</h1>
+    <form >
+        <div class="input">
+             <label for="name">Name:</label>
+             <input type="text"  placeholder="Enter your name">
+        </div>
+        <br>
+        <div class="radio-btns">
+            Are you a beginner
+            <input type="radio" name="beginner-status" id="yes-beginner-status">Yes
+            <input type="radio" name="beginner-status" id="no-beginner-status">No
+        </div>
+        <br>
+        <div class="dropdown">
+            Gender:
+            <select name="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            </select>
+        </div>
+        <br>
+        <div class="skills">
+            Skills : 
+            <input type="checkbox" name="html" > Html
+            <input type="checkbox" name="css" > Css
+            <input type="checkbox" name="javascript" > Javascript
+        </div>
+        <div class="textarea">
+            <p>Tell us about more yourself :</p>
+            <textarea  cols="30" rows="10"></textarea>
+        </div>
+        <div class="submit">
+            <button type="submit">Submit</button>
+        </div> 
+    </form>
+</body>
+</html>
