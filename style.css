@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;1,100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+
+    min-height:100%;
+    background:linear-gradient(0deg, rgba(58, 0, 34, 0.473), rgba(58, 0, 34, 0.473)), url(https://images.unsplash.com/photo-1481833761820-0509d3217039?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80w);
+    background-size:cover;
+}
+textarea{
+
+    background: rgba(116, 111, 111, 0.432);
+}
+.myform{
+    font-family: poppins;
+    color: white;
+    background: rgba(44, 41, 41, 0.705);
+    border:solid black 1px ;
+    margin: auto;
+    width: 25%;
+    padding: 20px;
+    border-radius: 15px;
+
+}
+.title{
+    text-align: center;
+}
+.submit{
+    text-align: center;
+}
+button{
+    
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 0;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-family: poppins;
+    color: white;
+    background: black;
+    letter-spacing: 2px;
+}
+button:hover{
+    padding: 12px 22px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.26);
+}
+b{
+    letter-spacing: 1px;   
+}
+input{
+    background: rgba(116, 111, 111, 0.432);
+    border: 0;
+    padding: 10px;
+}
+select{
+    background: rgba(116, 111, 111, 0.432);
+    border: 0;
+    padding: 6px;
+}
+.space{
+    padding: 3px;
+}
+
